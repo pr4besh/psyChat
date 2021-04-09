@@ -1,0 +1,5 @@
+eel~=0.14.0
+pyDHE~=1.0.0
+dataclasses-json
+pycryptodome
+crypto~=1.4.1

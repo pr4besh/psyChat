@@ -1,0 +1,2 @@
+https://pypi.org/project/pycrypto/
+https://docs.python.org/3/library/hashlib.html

@@ -1,0 +1,130 @@
+CHANGELOG FILE
+
+[format: mm-dd-yyyy]
+
+[03-30-2021]:
+	-preparing for first release
+
+
+[03-13-2021]:
+	- removed help functions
+
+[03-09-2021]:
+	- General Styling
+		* No more green color on hover for theme dropdown if the user had no localstorage files
+		* Organized right sidebar into 'actions' and 'settings'
+		* Styled the export and help buttons (still need to make them change color with the theme though)
+		* Theme dropdown now has a constant white color because of technical issues
+
+[03-08-2021]:
+	- Styled the dropdown to look good
+
+[03-08-2021] :
+	- can't start app if default GUI port isn't free
+
+[03-07-2021] :
+	- Polished off localstorage saving the chosen theme
+	- Auto generates buttons for the dropdown depending on how many themes are the the ThemeManager class
+
+[03-07-2021] :
+	- started looking at localStorage
+	- python process now stops when GUI gets closed
+	- updated documentation
+
+[02-27-2021] :
+	- redesigned gui
+	- updated documentation
+
+[02-16-2021] :
+	- started working on documentation
+	- removed old BUFFER_SIZE in server.py
+
+[02-14-2021] :
+	- renamed some functions (more readable now)
+	- started looking at detecting when the user closes the GUI window
+
+[02-11-2021] :
+	- vector is now being sent without writing it to a file
+
+[02-10-2021] :
+	- Completely changed the UI style, but the messages still work with python
+
+[02-03-2021] :
+	- Updated the GUI to look better and have the text not show under the box
+
+[02-03-2021] :
+	- cleaned the code by removing useless stuff
+	- removed logging functions
+
+[02-02-2021] :
+	- started to develop a GUI
+
+[02-03-2021] :
+	- cleaned the code a bit
+	- disconnection msg now contains username instead of IP
+
+[02-02-2021]  & :
+	- Finished a "database" with keys so the application is fully functional with AES encryption and DH key exchange
+	- Added TypeError exception handling for better stability
+
+[01-30-2021] :
+	- Started making the keys database functional (not done)
+
+[01-29-2021] :
+	- Added error handling for a UnicodeDecode error just in case
+
+[01-28-2021] :
+	- cleaned some dirs in the repo
+	- DH key is now being used for AES, need to implement the database correctly
+
+[01-25-2021]  & :
+	- implemented DH key exchange + bug_fixes
+
+[01-17-2021] :
+	- bug fixes for message.py
+	- implemented a safe way to close the server
+
+[01-16-2021] :
+	- The Message class will auto convert the 'cont' var to a string and back (with json) if you set the shouldParseContents argument to true
+
+[01-16-2021] :
+	- cleaned up the flagging, and made the help command export a full msg, not just a dictionary
+
+[01-16-2021] :
+	- cleaned up encoding to have in handled in the createMsg function
+
+[01-16-2021] :
+	- full switch to JSON for security reasons
+
+[01-13-2021] :
+	- important backend change: headers are being used to stream data
+	- cleaned the code from print statements
+	- renamed variables to increase understanding
+
+[01-11-2021] :
+	- handled server crash with user hard-closes connection
+
+[01-10-2021] :
+	- moved message class into a dedicated file
+
+[01-09-2021] :
+	- changed backend of the application: messages are now packets and not just strings of data
+
+[01-08-2021] :
+	- Re-added user input inside the program as a second possible option instead of argparse
+
+[01-02-2021] :
+	- IMPORTANT BUG_FIX: self.help was stuck to a True condition after it was set to True,
+	  this caused a crash (pickle.error) after receving a message from other people. So now it gets False after receiving the
+	  picke object (the possible commands dictionary).
+
+	- Removed "self." to "to_send_msg" in "sendMsg()"
+
+[01-02-2021] :
+	- replaced user input with argparse
+
+[01-01-2021] :
+	- replaced "open()" functions with "with open()"
+	
+[26-12-2020]:
+	- begining of the project

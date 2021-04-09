@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+*,
+::before,
+::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E3440;
+    color: #dde2ed;
+    letter-spacing: 4px;
+    overflow: hidden;
+    font-family: 'Londrina Solid', cursive;
+}
+
+/* wrapper for any inline elements that should fit normally on screen */
+.pageBlock {
+    display: inline-block;
+    -moz-box-orient: vertical;
+    height: auto;
+}
+
+/* This is for fixed content that should 100% of the height */
+.fixedCont {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+}
+
+/* This is for fixed content that should occupy tab size of top of page */
+.fixedContTab {
+    position: fixed;
+    top: 0px;
+    height: 75px;
+    text-align: center;
+}
+
+/* text for a button or tab */
+.buttonCont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* This is for fixed content that should be a tab size on the bottom of the page */
+.fixedContFoot {
+    position: fixed;
+    bottom: 40px;
+    height: 80px;
+    padding: 1%;
+}
+
+.chatMsg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.blockList {
+    width: 100%;
+    height: calc(100vh - 75px);
+    text-align: center;
+    overflow-x: auto;
+}
+
+.blockListItem {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: bold;
+    border-bottom: 1px solid grey;
+}
+
+/* ID STYLES */
+#client_msg {
+    width: 75%;
+    padding: 20px;
+    margin-left: 40px;
+    background-color: #f3f3f3;
+    font-size: 24px;
+}
+
+#client_msg:focus,
+#client_msg_btn:hover,
+.genbtn:hover,
+.dropbtn:hover {
+    border-top: 4px solid #00ff00;
+    border-bottom: 4px solid #00ff00;
+    border-left: none;
+    border-right: none;
+    background-color: #000 !important;
+    color: #00ff00 !important;
+}
+
+
+#client_msg_btn {
+    font-size: 24px;
+    text-align: center;
+    width: 18%;
+    margin-left: 10px;
+    color: black;
+    align-self: center;
+    background: #e4eff8;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+#chatList, #externalClientList {
+    font-size: 24px;
+}
+
+#chatList {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+    margin-bottom: 100px;
+}
+
+/*DROP DOWN*/
+.dropbtn {
+    background-color: #fff !important;
+    color: #000 !important;
+    padding: 13px;
+    font-size: 20px;
+    bottom: none;
+    cursor: pointer;
+    width: 140px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.dropbtn:focus{
+    outline: none;
+    border: 1px solid rgba(0,0,0, 0.25);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownButton {
+    display: block;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* NOT DROPDOWN ANYMORE */
+
+/* genbtns will change theme with the page */
+.genbtn {
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 30%;
+    margin: none;
+}
