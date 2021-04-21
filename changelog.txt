@@ -2,10 +2,18 @@ CHANGELOG FILE
 
 [format: mm-dd-yyyy]
 
-[03-30-2021]:
+[04-12-2021]:
 	-preparing for first release
 
+[04-04-2021]:
+	- Optimised the code and commented on new features
+	
+[04-02-2021]:
+	- added a new style of hover (border-top & border-bottom)
 
+[03-23-2021]:
+	- added a new theme 'Hacky'
+	
 [03-13-2021]:
 	- removed help functions
 
