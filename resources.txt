@@ -1,2 +1,9 @@
 https://pypi.org/project/pycrypto/
 https://docs.python.org/3/library/hashlib.html
+https://github.com/ChrisKnott/Eel/blob/master/README.md
+https://www.futurelearn.com/courses/networking-with-python-socket-programming-for-communication
+https://www.youtube.com/watch?v=3QiPPX-KeSc
+https://www.geeksforgeeks.org/understanding-python-dataclasses/
+https://www.n-able.com/blog/aes-256-encryption-algorithm
+https://theoscoder.medium.com/what-is-the-diffie-hellman-key-exchange-algorithm-84d60025a30d
+https://www.youtube.com/watch?v=NmM9HA2MQGI
