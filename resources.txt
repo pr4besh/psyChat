@@ -13,3 +13,4 @@ https://www.jscape.com/blog/key-exchange
 https://crypto.stackexchange.com/questions/9509/aes-encryption-using-a-diffie-hellman-key-exchange
 https://stackoverflow.com/questions/23743932/diffie-hellman-to-aes
 https://latesthackingnews.com/2020/10/31/link-previews-make-chat-apps-vulnerable-to-data-leak-and-rce-attacks/
+https://github.com/lowazo/pyDHE/blob/master/README.md
