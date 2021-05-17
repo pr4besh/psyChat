@@ -7,3 +7,8 @@ https://www.geeksforgeeks.org/understanding-python-dataclasses/
 https://www.n-able.com/blog/aes-256-encryption-algorithm
 https://theoscoder.medium.com/what-is-the-diffie-hellman-key-exchange-algorithm-84d60025a30d
 https://www.youtube.com/watch?v=NmM9HA2MQGI
+https://stackoverflow.com/questions/2259270/pickle-or-json
+https://cryptobook.nakov.com/key-exchange
+https://www.jscape.com/blog/key-exchange
+https://crypto.stackexchange.com/questions/9509/aes-encryption-using-a-diffie-hellman-key-exchange
+https://stackoverflow.com/questions/23743932/diffie-hellman-to-aes
