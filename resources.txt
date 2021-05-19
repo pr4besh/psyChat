@@ -14,3 +14,6 @@ https://crypto.stackexchange.com/questions/9509/aes-encryption-using-a-diffie-he
 https://stackoverflow.com/questions/23743932/diffie-hellman-to-aes
 https://latesthackingnews.com/2020/10/31/link-previews-make-chat-apps-vulnerable-to-data-leak-and-rce-attacks/
 https://github.com/lowazo/pyDHE/blob/master/README.md
+https://www.messengerpeople.com/global-messenger-usage-statistics/
+https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html
+https://www.cnet.com/news/viber-sends-video-images-without-encryption-protection/
